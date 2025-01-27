@@ -322,9 +322,6 @@ img {
     margin-bottom: 8px;
 }
 
-
-
-
 .team-social {
     display: flex;
     justify-content: center;
@@ -357,8 +354,6 @@ img {
     height: 16px;
     fill: #f4f4fd;
 }
-
-
 
 /* ----------PORTFOLIO---------- */
 .portfolio {
@@ -413,6 +408,16 @@ img {
     padding: 100px 0;
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-section {
+    margin-right: 120px;
+}
+
+
 .logo {
 }
 
@@ -430,4 +435,46 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
+}
+
+.footer-social {}
+
+
+.social-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-svg {
+    fill: #f4f4fd;
 }
