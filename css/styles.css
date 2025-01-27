@@ -226,6 +226,17 @@ img {
     flex-basis: calc(( 100% - 72px ) / 4);
 }
 
+.advantages-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    width: 100%;
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+}
+
 .advantages-subtitle,
 .portfolio-subtitle  {
     font-weight: 500;
@@ -243,6 +254,10 @@ img {
 .portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.advantages-text.correct {
+    letter-spacing: 0.019em;
 }
 
 /* ----------TEAM---------- */
