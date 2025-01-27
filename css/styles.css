@@ -154,7 +154,10 @@ img {
     display: block;
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/backgroundimage.jpg");
-    width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
     padding: 188px 0;
     margin: 0 auto;
 }
@@ -185,6 +188,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -290,6 +294,7 @@ img {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc(( 100% - 72px ) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-img {
@@ -314,6 +319,34 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-social {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-link {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: #404bbf;
+}
+
+.social-svg {
+    fill: #f4f4fd;
+}
+
+.social-item {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ----------PORTFOLIO---------- */
