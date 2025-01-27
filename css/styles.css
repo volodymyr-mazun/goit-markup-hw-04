@@ -151,8 +151,12 @@ img {
 /* ----------HERO---------- */
 
 .hero {
+    display: block;
     background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/backgroundimage.jpg");
+    width: 1440px;
     padding: 188px 0;
+    margin: 0 auto;
 }
 
 .hero-title {
